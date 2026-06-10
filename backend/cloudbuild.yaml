@@ -1,0 +1,84 @@
+# Cloud Build — build and deploy the SiteTrax.io Atlas Agent to Cloud Run.
+#
+# Usage (one-time deploy from local machine):
+#   gcloud builds submit --config=cloudbuild.yaml \
+#     --substitutions=_REGION=us-central1,_SERVICE=sitetrax-coordinator \
+#     .
+#
+# Or trigger automatically by connecting this repo to Cloud Build.
+#
+# Required substitution variables (set in Cloud Build trigger UI or --substitutions):
+#   _REGION     Cloud Run region (default: us-central1)
+#   _SERVICE    Cloud Run service name (default: sitetrax-coordinator)
+#
+# Required Secret Manager secrets (grant Cloud Build SA secretAccessor):
+#   sitetrax-access-token
+#   sitetrax-refresh-token
+#   tasks-token
+#   resend-api-key  (optional — only needed when EMAIL_PROVIDER=resend)
+#
+# Required env vars set on the Cloud Run service (update after first deploy):
+#   See .env.example — set via Cloud Run UI or gcloud run services update.
+
+substitutions:
+  _REGION: us-central1
+  _SERVICE: sitetrax-coordinator
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+
+steps:
+  # ── Build ──────────────────────────────────────────────────────────────────
+  - name: gcr.io/cloud-builders/docker
+    id: build
+    args:
+      - build
+      - --tag=gcr.io/$PROJECT_ID/${_SERVICE}:$SHORT_SHA
+      - --tag=gcr.io/$PROJECT_ID/${_SERVICE}:latest
+      - --cache-from=gcr.io/$PROJECT_ID/${_SERVICE}:latest
+      - .
+
+  # ── Push ───────────────────────────────────────────────────────────────────
+  - name: gcr.io/cloud-builders/docker
+    id: push
+    waitFor: [build]
+    args:
+      - push
+      - --all-tags
+      - gcr.io/$PROJECT_ID/${_SERVICE}
+
+  # ── Deploy to Cloud Run ────────────────────────────────────────────────────
+  - name: gcr.io/google.com/cloudsdktool/cloud-sdk:slim
+    id: deploy
+    waitFor: [push]
+    entrypoint: gcloud
+    args:
+      - run
+      - deploy
+      - ${_SERVICE}
+      - --image=gcr.io/$PROJECT_ID/${_SERVICE}:$SHORT_SHA
+      - --region=${_REGION}
+      - --platform=managed
+      - --allow-unauthenticated
+      - --min-instances=1
+      - --max-instances=4
+      - --memory=2Gi
+      - --cpu=2
+      - --timeout=300
+      - --concurrency=80
+      # ADK / Gemini
+      - --set-env-vars=GOOGLE_GENAI_USE_VERTEXAI=TRUE
+      - --set-env-vars=GOOGLE_CLOUD_PROJECT=$PROJECT_ID
+      - --set-env-vars=GOOGLE_CLOUD_LOCATION=${_REGION}
+      - --set-env-vars=GOOGLE_MODEL=gemini-2.5-flash
+      # Data + persistence (Firestore auto-enabled on Cloud Run via K_SERVICE)
+      - --set-env-vars=USE_REAL_API=true
+      # Email alerts
+      - --set-env-vars=EMAIL_PROVIDER=resend
+      - --set-env-vars=ALERT_EMAIL_FROM=onboarding@resend.dev
+      # Cloud Scheduler security
+      - --set-env-vars=ENABLE_POLLER=false
+
+images:
+  - gcr.io/$PROJECT_ID/${_SERVICE}:$SHORT_SHA
+  - gcr.io/$PROJECT_ID/${_SERVICE}:latest

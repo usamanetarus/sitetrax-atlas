@@ -1,0 +1,22 @@
+# ── Local technical reference (not shipped in the image) ──
+TECHNICAL_DETAILS.md
+
+# ── Virtualenv & bytecode (wrong platform / rebuilt in the image) ──
+.venv/
+__pycache__/
+*.py[cod]
+
+# ── Secrets & local env — runtime config comes from Cloud Run env vars ──
+.env
+
+# ── Dev-only files not needed at runtime ──
+.gitignore
+.dockerignore
+README.md
+diagnose_firestore.py
+
+# ── Eval/test suite — not needed at runtime ──
+eval/
+
+# ── ADK CLI entry point — only used with `adk web`, not Cloud Run ──
+agents/

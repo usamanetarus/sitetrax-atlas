@@ -1,0 +1,746 @@
+[
+  {
+    "query": "When was TRBU5341840 last seen?",
+    "expected_tools": [
+      "container_last_seen_tool"
+    ]
+  },
+  {
+    "query": "What does status code A1 mean?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What is asset_heading R2L?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What fields are in the SiteTrax API payload?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What video format and camera setup does SiteTrax recommend?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What is Snap.SiteTrax.io?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What is SiteTrax Mobile?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What is SiteTrax Drive?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What are SiteTrax yard checks used for?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What is SiteTrax YMS positioning?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What is SiteTrax about?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What does SiteTrax mean by digital twin?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "How does SiteTrax integrate with Zapier and Chain.io?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "How do Google integrations work with SiteTrax?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What should I do if records from a video do not show up?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What does SiteTrax say in the CTPAT compliance article?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What is SiteTrax saying in Beyond Containers in 2025?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What is the SiteTrax multi-project dashboard?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What is the Project Status Banner in SiteTrax?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "How does SiteTrax describe itself as AI-as-a-Service?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What is the SiteTrax CMS article about?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What does SiteTrax say about interchange to last mile visibility?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "How do I share an asset record in SiteTrax?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What is the SiteTrax feedback feature?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "How does SiteTrax help with TMS and dispatch?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What does SiteTrax say in the Roboflow comparison?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "How does SiteTrax help with FMCSA transparency?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What does SiteTrax say about truck driver detention?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What does SiteTrax say about terminal operations and TOS?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What is the SiteTrax Service Portal?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What is the SiteTrax project model?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "How does SiteTrax Virtual Gate get installed and what does the digital twin show?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What do the Assets Gallery and Asset Detail pages show?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What is the Video Naming Convention in SiteTrax?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What does SiteTrax say about customer content and AI output data?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What was the last container scanned at Utah Intermodal Ramp ever?",
+    "expected_tools": [
+      "facility_last_scan_tool"
+    ]
+  },
+  {
+    "query": "How many times has TRDU1930583 been at Utah Intermodal Ramp?",
+    "expected_tools": [
+      "container_facility_activity_tool"
+    ]
+  },
+  {
+    "query": "What is the dwell for TRDU1930583?",
+    "expected_tools": [
+      "container_dwell_tool"
+    ]
+  },
+  {
+    "query": "Show me the video for TEMU8826524",
+    "expected_tools": [
+      "container_video_tool"
+    ]
+  },
+  {
+    "query": "Search videos from Utah Intermodal Ramp",
+    "expected_tools": [
+      "search_videos_tool"
+    ]
+  },
+  {
+    "query": "What is at Utah Intermodal Ramp?",
+    "expected_tools": [
+      "yard_inventory_tool"
+    ]
+  },
+  {
+    "query": "How is Utah Intermodal Ramp doing?",
+    "expected_tools": [
+      "facility_health_check_tool"
+    ]
+  },
+  {
+    "query": "Show me containers at Utah Intermodal Ramp too long",
+    "expected_tools": [
+      "detention_list_tool"
+    ]
+  },
+  {
+    "query": "Inbound vs outbound at Utah Intermodal Ramp today",
+    "expected_tools": [
+      "inbound_outbound_tool"
+    ]
+  },
+  {
+    "query": "Any duplicates today at Utah Intermodal Ramp?",
+    "expected_tools": [
+      "duplicate_detection_tool"
+    ]
+  },
+  {
+    "query": "What needs review at Utah Intermodal Ramp?",
+    "expected_tools": [
+      "review_queue_tool"
+    ]
+  },
+  {
+    "query": "Camera health at Utah Intermodal Ramp",
+    "expected_tools": [
+      "camera_health_tool"
+    ]
+  },
+  {
+    "query": "Missing containers at Utah Intermodal Ramp",
+    "expected_tools": [
+      "missing_containers_tool"
+    ]
+  },
+  {
+    "query": "Turnaround time at Utah Intermodal Ramp",
+    "expected_tools": [
+      "turnaround_time_tool"
+    ]
+  },
+  {
+    "query": "Generate report for Utah Intermodal Ramp",
+    "expected_tools": [
+      "generate_facility_report_tool"
+    ]
+  },
+  {
+    "query": "Compare Utah Intermodal Ramp and a facility",
+    "expected_tools": [
+      "compare_facilities_tool"
+    ]
+  },
+  {
+    "query": "Show me all HAPU containers",
+    "expected_tools": [
+      "container_company_tool"
+    ]
+  },
+  {
+    "query": "Track TRBU5341840",
+    "expected_tools": [
+      "asset_journey_tool"
+    ]
+  },
+  {
+    "query": "My default yard is Utah Intermodal Ramp",
+    "expected_tools": [
+      "set_user_preferences_tool"
+    ]
+  },
+  {
+    "query": "What is my default yard?",
+    "expected_tools": [
+      "get_user_preferences_tool"
+    ]
+  },
+  {
+    "query": "Search memory for what yard I usually monitor",
+    "expected_tools": [
+      "load_memory"
+    ]
+  },
+  {
+    "query": "Does Snap work on iOS and Windows?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What is the Bring Your Own Camera (BYOC) feature?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What are the proven results from a SiteTrax case study?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "How does SiteTrax help 3PLs with gate operations and turnaround?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What is the asset_image field in the API output?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "How does SiteTrax relate to EPA air pollution rules?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "What is SiteTrax's pricing model?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "How do I contact SiteTrax sales?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "Show me the SiteTrax schema for assets",
+    "expected_tools": [
+      "get_sitetrax_schema_tool"
+    ]
+  },
+  {
+    "query": "What fields can I filter on for videos?",
+    "expected_tools": [
+      "get_sitetrax_schema_tool"
+    ]
+  },
+  {
+    "query": "Query assets at Utah Intermodal Ramp with status A0",
+    "expected_tools": [
+      "sitetrax_query_tool"
+    ]
+  },
+  {
+    "query": "Generate a report of all detections this week",
+    "expected_tools": [
+      "sitetrax_report_tool"
+    ]
+  },
+  {
+    "query": "What are the daily counts at Utah Intermodal Ramp?",
+    "expected_tools": [
+      "facility_metrics_tool"
+    ]
+  },
+  {
+    "query": "Show me the busiest yard this month",
+    "expected_tools": [
+      "busiest_facility_tool"
+    ]
+  },
+  {
+    "query": "Show me images at Utah Intermodal Ramp from yesterday",
+    "expected_tools": [
+      "search_images_tool"
+    ]
+  },
+  {
+    "query": "Get all images for container TEMU8826524",
+    "expected_tools": [
+      "get_container_images_tool"
+    ]
+  },
+  {
+    "query": "What is the video metrics for project 123?",
+    "expected_tools": [
+      "get_video_metrics_tool"
+    ]
+  },
+  {
+    "query": "Show me the last video for Utah Intermodal Ramp",
+    "expected_tools": [
+      "get_project_last_video_tool"
+    ]
+  },
+  {
+    "query": "What integrations does Utah Intermodal Ramp have?",
+    "expected_tools": [
+      "get_project_integrations_tool"
+    ]
+  },
+  {
+    "query": "Any late exits after 4pm at Utah Intermodal Ramp?",
+    "expected_tools": [
+      "facility_time_of_day_tool"
+    ]
+  },
+  {
+    "query": "What account am I connected to?",
+    "expected_tools": [
+      "get_auth_self_tool"
+    ]
+  },
+  {
+    "query": "What are the feedback choices?",
+    "expected_tools": [
+      "get_feedback_choices_tool"
+    ]
+  },
+  {
+    "query": "Tell me more about asset 12345",
+    "expected_tools": [
+      "get_asset_detail_tool"
+    ]
+  },
+  {
+    "query": "Details for video 98765",
+    "expected_tools": [
+      "get_video_detail_tool"
+    ]
+  },
+  {
+    "query": "Which containers are missing at Utah Intermodal Ramp?",
+    "expected_tools": [
+      "missing_containers_tool"
+    ]
+  },
+  {
+    "query": "Any repeated scans today?",
+    "expected_tools": [
+      "duplicate_detection_tool"
+    ]
+  },
+  {
+    "query": "Track chassis activity at Utah Intermodal Ramp",
+    "expected_tools": [
+      "chassis_activity_tool"
+    ]
+  },
+  {
+    "query": "Show me recent activity for company TRBU",
+    "expected_tools": [
+      "recent_activity_by_company_tool"
+    ]
+  },
+  {
+    "query": "Find all containers from company HAPU",
+    "expected_tools": [
+      "container_company_tool"
+    ]
+  },
+  {
+    "query": "Get all videos for container TEMU8826524",
+    "expected_tools": [
+      "get_container_videos_tool"
+    ]
+  },
+  {
+    "query": "Find videos from Utah Intermodal Ramp last 24h",
+    "expected_tools": [
+      "search_videos_tool"
+    ]
+  },
+  {
+    "query": "Show timeline with videos for TRBU5341840",
+    "expected_tools": [
+      "get_timeline_with_videos_tool"
+    ]
+  },
+  {
+    "query": "Recent activity at Utah Intermodal Ramp",
+    "expected_tools": [
+      "facility_recent_activity_tool"
+    ]
+  },
+  {
+    "query": "List all my facilities",
+    "expected_tools": [
+      "list_facilities_tool"
+    ]
+  },
+  {
+    "query": "What is the status distribution at Utah Intermodal Ramp?",
+    "expected_tools": [
+      "status_distribution_tool"
+    ]
+  },
+  {
+    "query": "Show yard inventory at Utah Intermodal Ramp",
+    "expected_tools": [
+      "yard_inventory_tool"
+    ]
+  },
+  {
+    "query": "Compare Utah Intermodal Ramp and another facility",
+    "expected_tools": [
+      "compare_facilities_tool"
+    ]
+  },
+  {
+    "query": "What is the camera health at my facility?",
+    "expected_tools": [
+      "camera_health_tool"
+    ]
+  },
+  {
+    "query": "Show me the review queue for yesterday",
+    "expected_tools": [
+      "review_queue_tool"
+    ]
+  },
+  {
+    "query": "Any detention risks at Utah Intermodal Ramp?",
+    "expected_tools": [
+      "detention_list_tool"
+    ]
+  },
+  {
+    "query": "Inbound vs outbound traffic today",
+    "expected_tools": [
+      "inbound_outbound_tool"
+    ]
+  },
+  {
+    "query": "Turnaround time at my yard",
+    "expected_tools": [
+      "turnaround_time_tool"
+    ]
+  },
+  {
+    "query": "Generate a facility report for Utah Intermodal Ramp",
+    "expected_tools": [
+      "generate_facility_report_tool"
+    ]
+  },
+  {
+    "query": "Export to CSV for Utah Intermodal Ramp",
+    "expected_tools": [
+      "export_to_csv_tool"
+    ]
+  },
+  {
+    "query": "Container journey for TEMU8826524",
+    "expected_tools": [
+      "asset_journey_tool"
+    ]
+  },
+  {
+    "query": "What is the dwell time for TRBU5341840 at Utah Intermodal Ramp?",
+    "expected_tools": [
+      "container_dwell_tool"
+    ]
+  },
+  {
+    "query": "How many times has TRBU5341840 been seen at Utah Intermodal Ramp?",
+    "expected_tools": [
+      "container_facility_activity_tool"
+    ]
+  },
+  {
+    "query": "When was TRBU5341840 last detected?",
+    "expected_tools": [
+      "container_last_seen_tool"
+    ]
+  },
+  {
+    "query": "What is the last container scanned at a facility ever?",
+    "expected_tools": [
+      "facility_last_scan_tool"
+    ]
+  },
+  {
+    "query": "List all projects and yards",
+    "expected_tools": [
+      "list_facilities_tool"
+    ]
+  },
+  {
+    "query": "Get the most recent image for TEMU8826524",
+    "expected_tools": [
+      "container_image_tool"
+    ]
+  },
+  {
+    "query": "Get the most recent video for TEMU8826524",
+    "expected_tools": [
+      "container_video_tool"
+    ]
+  },
+  {
+    "query": "Query SiteTrax for all assets with status A1 today",
+    "expected_tools": [
+      "sitetrax_query_tool"
+    ]
+  },
+  {
+    "query": "What does the API payload look like for videos?",
+    "expected_tools": [
+      "sitetrax_reference_tool"
+    ]
+  },
+  {
+    "query": "How do I set up a monitoring rule for container arrivals?",
+    "expected_tools": [
+      "create_monitoring_rule_tool"
+    ]
+  },
+  {
+    "query": "What alerts have fired recently?",
+    "expected_tools": [
+      "rule_history_tool"
+    ]
+  },
+  {
+    "query": "Log a feature request for railcar tracking",
+    "expected_tools": [
+      "log_opportunity_tool"
+    ]
+  },
+  {
+    "query": "Save my default yard as Utah Intermodal Ramp",
+    "expected_tools": [
+      "set_user_preferences_tool"
+    ]
+  },
+  {
+    "query": "What did I usually track before?",
+    "expected_tools": [
+      "load_memory"
+    ]
+  },
+  {
+    "query": "When was trbu5341840 last seen?",
+    "expected_tools": [
+      "container_last_seen_tool"
+    ]
+  },
+  {
+    "query": "Find partial container TRBU534",
+    "expected_tools": [
+      "query_assets_tool"
+    ]
+  },
+  {
+    "query": "What was the last container scanned at Utah ever?",
+    "expected_tools": [
+      "facility_last_scan_tool"
+    ]
+  },
+  {
+    "query": "Give me the total video metrics this month",
+    "expected_tools": [
+      "get_video_metrics_tool"
+    ]
+  },
+  {
+    "query": "Which facility is busiest this month?",
+    "expected_tools": [
+      "busiest_facility_tool"
+    ]
+  },
+  {
+    "query": "Compare Utah Intermodal Ramp and another facility",
+    "expected_tools": [
+      "compare_facilities_tool"
+    ]
+  },
+  {
+    "query": "Recent activity at Mars Yard",
+    "expected_tools": [
+      "facility_recent_activity_tool"
+    ]
+  },
+  {
+    "query": "Find videos from Utah last 24 hours",
+    "expected_tools": [
+      "search_videos_tool"
+    ]
+  },
+  {
+    "query": "What is the difference between count and trans in asset metrics?",
+    "expected_tools": [
+      "sitetrax_schema_tool"
+    ]
+  }
+]

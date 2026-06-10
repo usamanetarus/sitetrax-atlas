@@ -1,0 +1,4 @@
+google-adk[a2a,mcp]==2.2.0
+python-dotenv>=1.0.0
+httpx>=0.28.0
+google-cloud-firestore>=2.16.0

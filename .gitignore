@@ -1,0 +1,23 @@
+# ── Secrets / env ──
+.env
+.agent_engine_config.json
+
+# ── Local technical reference (maintained locally, not committed) ──
+TECHNICAL_DETAILS.md
+
+# ── Python (backend) ──
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.db
+*.db-journal
+
+# ── Node (frontend) ──
+node_modules/
+dist/
+
+# ── OS / editor ──
+.DS_Store
+.idea/
+.vscode/

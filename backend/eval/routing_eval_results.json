@@ -1,0 +1,587 @@
+{
+  "cases": [
+    {
+      "query": "When was TRBU5341840 last seen?",
+      "expected": [
+        "container_last_seen_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "container_last_seen_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "What does status code A1 mean?",
+      "expected": [
+        "sitetrax_reference_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "sitetrax_reference_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "What is asset_heading R2L?",
+      "expected": [
+        "sitetrax_reference_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "sitetrax_reference_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "What fields are in the SiteTrax API payload?",
+      "expected": [
+        "sitetrax_reference_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "sitetrax_reference_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "What video format and camera setup does SiteTrax recommend?",
+      "expected": [
+        "sitetrax_reference_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "sitetrax_reference_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "What is Snap.SiteTrax.io?",
+      "expected": [
+        "sitetrax_reference_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "sitetrax_reference_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "What is SiteTrax Mobile?",
+      "expected": [
+        "sitetrax_reference_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "sitetrax_reference_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "What is SiteTrax Drive?",
+      "expected": [
+        "sitetrax_reference_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "sitetrax_reference_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "What are SiteTrax yard checks used for?",
+      "expected": [
+        "sitetrax_reference_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "sitetrax_reference_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "What is SiteTrax YMS positioning?",
+      "expected": [
+        "sitetrax_reference_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "sitetrax_reference_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "What is SiteTrax about?",
+      "expected": [
+        "sitetrax_reference_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "sitetrax_reference_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "What does SiteTrax mean by digital twin?",
+      "expected": [
+        "sitetrax_reference_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "sitetrax_reference_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "How does SiteTrax integrate with Zapier and Chain.io?",
+      "expected": [
+        "sitetrax_reference_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "sitetrax_reference_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "What was the last container scanned by Norfolk Yard ever?",
+      "expected": [
+        "facility_last_scan_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "facility_last_scan_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "How many times has TRDU1930583 been at Utah Intermodal Ramp?",
+      "expected": [
+        "container_facility_activity_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "container_facility_activity_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "What is the dwell for TRDU1930583?",
+      "expected": [
+        "container_dwell_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "container_dwell_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "Show me the video for TEMU8826524",
+      "expected": [
+        "container_video_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "container_video_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "Search videos from Utah Intermodal Ramp",
+      "expected": [
+        "search_videos_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "search_videos_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "What is at Utah Intermodal Ramp?",
+      "expected": [
+        "yard_inventory_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "yard_inventory_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "How is Utah Intermodal Ramp doing?",
+      "expected": [
+        "facility_health_check_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "facility_health_check_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "Show me containers at Utah Intermodal Ramp too long",
+      "expected": [
+        "detention_list_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "detention_list_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "Inbound vs outbound at Utah Intermodal Ramp today",
+      "expected": [
+        "inbound_outbound_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "inbound_outbound_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "Any duplicates today at Utah Intermodal Ramp?",
+      "expected": [
+        "duplicate_detection_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "duplicate_detection_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "What needs review at Utah Intermodal Ramp?",
+      "expected": [
+        "review_queue_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "review_queue_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "Camera health at Utah Intermodal Ramp",
+      "expected": [
+        "camera_health_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "camera_health_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "Missing containers at Utah Intermodal Ramp",
+      "expected": [
+        "missing_containers_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "missing_containers_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "Turnaround time at Utah Intermodal Ramp",
+      "expected": [
+        "turnaround_time_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "turnaround_time_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "Generate report for Utah Intermodal Ramp",
+      "expected": [
+        "generate_facility_report_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "generate_facility_report_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "Compare Utah Intermodal Ramp and Norfolk Yard",
+      "expected": [
+        "compare_facilities_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "compare_facilities_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "Show me all HAPU containers",
+      "expected": [
+        "container_company_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "container_company_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "Track TRBU5341840",
+      "expected": [
+        "asset_journey_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "asset_journey_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "My default yard is Utah Intermodal Ramp",
+      "expected": [
+        "set_user_preferences_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "set_user_preferences_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "What is my default yard?",
+      "expected": [
+        "get_user_preferences_tool"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "get_user_preferences_tool"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    },
+    {
+      "query": "Search memory for what yard I usually monitor",
+      "expected": [
+        "load_memory"
+      ],
+      "invoked": [],
+      "matched": [],
+      "missed": [
+        "load_memory"
+      ],
+      "extra": [],
+      "timeout": false,
+      "error": "TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError(\"HTTPSConnection(host='oauth2.googleapis.com', port=443): Failed to resolve 'oauth2.googleapis.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "pass": false,
+      "completed": false,
+      "score": 0.0
+    }
+  ],
+  "summary": {
+    "total": 34,
+    "passed": 0,
+    "avg_score": 0.0
+  }
+}
