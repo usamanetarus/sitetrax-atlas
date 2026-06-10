@@ -101,12 +101,6 @@ export default function Header({
           </AnimatePresence>
         </IconTooltipButton>
         <div className="my-1.5 flex min-w-0 items-center gap-3 rounded-2xl border border-stone-200/80 bg-stone-100/90 px-3 py-2.5 shadow-sm shadow-stone-950/[0.03] dark:border-stone-800 dark:bg-stone-900/85">
-          <motion.img
-            src="/SiteTrax.io Full Color Logo.png" alt="SiteTrax.io"
-            className="h-12 w-12 shrink-0 rounded-xl bg-white object-contain p-0.5 ring-1 ring-stone-200 dark:bg-stone-950 dark:ring-stone-800 sm:h-12 sm:w-12"
-            whileHover={{ scale: 1.04, rotate: -1 }}
-            transition={{ type: 'spring', stiffness: 400, damping: 20 }}
-          />
           <div className="min-w-0 pr-1">
             <h1 className="truncate text-lg font-semibold leading-5 text-stone-950 dark:text-stone-50 sm:text-xl">SiteTrax.io</h1>
             <p className="hidden text-xs font-medium text-stone-500 dark:text-stone-300 sm:block">Atlas Agent</p>
